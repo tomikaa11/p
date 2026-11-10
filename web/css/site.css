@@ -162,6 +162,8 @@ h1, h2, h3 {
 }
 .btn-lime, .btn-light { background: #40e0d0; color: var(--ink); border-color: #40e0d0; }
 .btn-lime:hover, .btn-light:hover, .header-home .btn-lime:hover { background: #2ecfc0; border-color: #2ecfc0; }
+.btn-route { background: #FFA500; color: var(--ink); border-color: #FFA500; }
+.btn-route:hover { background: #e89400; border-color: #e89400; }
 .btn-ghost { color: #0c6e68; border-color: #40e0d0; }
 .btn-ghost:hover, .hero .btn-ghost:hover { background: #40e0d0; color: var(--ink); border-color: #40e0d0; }
 .hero .btn-ghost { color: #40e0d0; border-color: #40e0d0; }
@@ -373,6 +375,13 @@ h1, h2, h3 {
   font-size: 1.2rem;
 }
 .footer-text { max-width: 38rem; margin-top: 0; }
+.footer-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin: 1.15rem 0 0;
+}
 .footer-book {
   display: inline;
   border: 0;
@@ -388,6 +397,16 @@ h1, h2, h3 {
   text-decoration: underline;
   text-underline-offset: 0.22em;
 }
+.contact-line { display: grid; gap: 0.12rem; }
+.contact-line p { margin: 0; }
+.contact-label {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.footer-grid .contact-line { margin-top: 0.85rem; }
 .footer-grid {
   display: grid;
   gap: 1.8rem 2.4rem;
