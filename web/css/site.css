@@ -485,10 +485,11 @@ textarea { min-height: 8rem; resize: vertical; }
   .brand-logo { height: 3.6rem; }
   .footer-grid { grid-template-columns: 1.1fr 0.9fr; }
   .split { grid-template-columns: 1.1fr 0.9fr; }
-  .court-grid, .card-grid { grid-template-columns: 1fr 1fr; }
+  .court-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .card-grid { grid-template-columns: 1fr 1fr; }
   .card-grid.values { grid-template-columns: 1fr 1fr 1fr; }
-  .facts { grid-template-columns: 1fr 1fr 1fr 1fr; }
-  .price-grid { grid-template-columns: 1fr 1fr; }
+  .facts { grid-template-columns: 1fr 1fr 1fr; }
+  .price-grid { grid-template-columns: minmax(0, 36rem); }
   .form-grid.two { grid-template-columns: 1fr 1fr; }
   .legal-row { grid-template-columns: 16rem 1fr; align-items: baseline; }
   .photo-row img { height: 22rem; }
