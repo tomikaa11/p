@@ -264,6 +264,8 @@ h1, h2, h3 {
 .lead { max-width: 38rem; color: var(--muted); font-size: 1.12rem; }
 .hero-actions, .inline-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.7rem; margin: 1.5rem 0 0; }
 .muted { color: var(--muted); }
+.card p.muted,
+.way p.muted { color: #FFA500; }
 
 .section, .page-wrap { width: min(1120px, calc(100% - 2.4rem)); margin: 0 auto; }
 .section { padding: 5rem 0; }
@@ -273,6 +275,8 @@ h1, h2, h3 {
 .section-head.wide h2, .page-wrap .section-head.wide h1 { max-width: 16ch; }
 .section-action { margin-top: 1.6rem; }
 .card-grid.values { margin-top: 1.8rem; }
+.card-grid.values h2,
+.card-grid.values h3 { color: var(--magenta); }
 .facts {
   list-style: none;
   padding: 0;
